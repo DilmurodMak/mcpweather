@@ -80,3 +80,43 @@ def get_weather_info(location: str) -> str:
         location (str): The location for which to get the weather information.
                        The location needs to be a proper city name like London, Tokyo etc.
     """
+```
+
+### Getting Started
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/MCP_WEATHER.git
+   cd MCP_WEATHER
+   ```
+2. **Create a Virtual Environment**:
+   ```bash
+   uv venv weather_mcp_env
+   source weather_mcp_env/bin/activate
+   ```  
+
+3. **Install Dependencies**:
+   ```bash
+   uv sync or uv pip install -r requirements.txt
+   ```
+4. **Configuration**:
+
+.vscode/mcp.json
+```json
+{
+  "mcpServers": {
+    "weather": {
+      "command": "path/to/python",
+      "args": ["path/to/weather_server.py"]
+    }
+  }
+}
+```
+
+Open the vscode chat agent mode and ask a weather question 
+
+```
+what is the weather in Jersey City?
+```
+
+you should see the agent using the MCP server to get the weather information.

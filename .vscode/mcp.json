@@ -5,9 +5,9 @@
 			"type": "http"
 		},
 		"weather":{
-			"command": "/Users/1989deny/Desktop/MCP_WEATHER/weather_mcp/bin/python",
+			"command": "FULL/PATH/TO/YOUR/REPO/ROOT/weather_mcp/bin/python",
 			"args": [
-                "/Users/1989deny/Desktop/MCP_WEATHER/weather_server.py"
+                "FULL/PATH/TO/YOUR/REPO/ROOT/weather_server.py"
             ],
 			"env": {}
 		}
