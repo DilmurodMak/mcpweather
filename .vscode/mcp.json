@@ -1,0 +1,16 @@
+{
+	"servers": {
+		"github": {
+			"url": "https://api.githubcopilot.com/mcp/",
+			"type": "http"
+		},
+		"weather":{
+			"command": "/Users/1989deny/Desktop/MCP_WEATHER/weather_mcp/bin/python",
+			"args": [
+                "/Users/1989deny/Desktop/MCP_WEATHER/weather_server.py"
+            ],
+			"env": {}
+		}
+	},
+	"inputs": []
+}
